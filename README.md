@@ -35,14 +35,24 @@ USER STORY:
     - go home button
         - this will take you back to the title page
 
-        
+
+
+
+
 Wire Frames:
-![](./Images/GameProjectPhotos/gamePhoto1.png)
-![](./Images/GameProjectPhotos/gamePhoto2.png)
-![](./Images/GameProjectPhotos/gamePhoto3.png)
-![](./Images/GameProjectPhotos/gamePhoto4.png)
-![](./Images/GameProjectPhotos/gamePhoto5.png)
-![](./Images/GameProjectPhotos/gamePhoto6.png)
-![](./Images/GameProjectPhotos/gamePhoto7.png)
-![](./Images/GameProjectPhotos/gamePhoto8.png)
-![](./Images/GameProjectPhotos/gamePhoto9.png)
+
+1. ![](./Images/GameProjectPhotos/gamePhoto1.png)
+2. ![](./Images/GameProjectPhotos/gamePhoto2.png)
+3. ![](./Images/GameProjectPhotos/gamePhoto3.png)
+4. ![](./Images/GameProjectPhotos/gamePhoto4.png)
+5. ![](./Images/GameProjectPhotos/gamePhoto5.png)
+6. ![](./Images/GameProjectPhotos/gamePhoto6.png)
+7. ![](./Images/GameProjectPhotos/gamePhoto7.png)
+8. ![](./Images/GameProjectPhotos/gamePhoto8.png)
+9. ![](./Images/GameProjectPhotos/gamePhoto9.png)
+
+
+Stretch Goals:
+Create a timer for how long it takes to get across
+Time could give you a score and you could utilize local storage to keep a high score log
+Have an item randomly pop into spots, and require Toro to grab them before getting to the grass
