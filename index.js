@@ -26,5 +26,6 @@ canvas.height = 600;
 
 // variables
 const grid = 80;
+let keys = [];
 
 
