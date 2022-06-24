@@ -27,5 +27,12 @@ canvas.height = 600;
 // variables
 const grid = 80;
 let keys = [];
+let score = 0;
+let movementSpeed = 1;
 
-
+const cactusArray = [];
+const ropeArray = [];
+const spurArray = [];
+const hatArray = [];
+const bootArray = [];
+const manArray = [];

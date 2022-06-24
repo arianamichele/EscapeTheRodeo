@@ -38,6 +38,7 @@ class Toro {
                 this.moving = true;
             }
         }
+        if (this.y < 0) scorePoint();
     }
     draw() {
        ctx1.fillStyle = 'brown';
