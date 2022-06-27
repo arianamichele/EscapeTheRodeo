@@ -1,6 +1,5 @@
 // Toro
 class Toro {
-    // The constructor method is a special method of a class for creating and initializing an object instance of that class.
     constructor(){
         this.spriteWidth = 250;
         this.spriteHeight = 250;

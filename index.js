@@ -31,7 +31,6 @@ const ropeArray = [];
 const spurArray = [];
 const hatArray = [];
 const bootArray = [];
-const manArray = [];
 
 // pictures
 const backgroundPhoto = new Image();
