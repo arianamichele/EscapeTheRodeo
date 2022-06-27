@@ -1,5 +1,6 @@
 function animate(){
     ctx3.clearRect(0, 0, canvas.clientWidth, canvas.height)
+    ctx1.drawImage(backgroundPhoto, 0, 0, canvas.width, canvas.height)
     toro.draw();
     toro.update();
     handleObjects();
@@ -36,4 +37,17 @@ function handleScoreBoard(){
     ctx4.strokeText('score', 265, 15);
     ctx4.font = '60px Tahoma';
     ctx4.fillText(score, 270, 65)
+}
+
+function collision(first, second){
+    return!( first.x > second.x + second.width ||
+            first.x + first.width < second.x ||
+            first.y > second.y + second.height ||
+            first.y + first.height < second.y);
+}
+
+function resetGame(){
+    toro.x = canvas.width/2 -  toro.width/2;
+    toro.y = canvas.height - toro.height - 40;
+    score = 0;
 }

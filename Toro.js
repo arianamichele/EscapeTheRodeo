@@ -41,8 +41,9 @@ class Toro {
         if (this.y < 0) scorePoint();
     }
     draw() {
-       ctx1.fillStyle = 'brown';
-       ctx3.fillRect(this.x, this.y, this.width, this.height)
+       //ctx1.fillStyle = 'brown';
+       //ctx3.fillRect(this.x, this.y, this.width, this.height)
+       ctx3.drawImage(toroPhoto, 0, 0, this.spriteWidth, this.spriteHeight, this.x - 5, this.y, this.width * 3.5, this.height * 3)
     }
     run(){
         //console.log('run')
